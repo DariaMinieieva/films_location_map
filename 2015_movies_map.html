@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e267f3f16bee4812ab682a6ed73e606d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e267f3f16bee4812ab682a6ed73e606d" ></div>
+        
+</body>
+<script>    
+    
+            var map_e267f3f16bee4812ab682a6ed73e606d = L.map(
+                "map_e267f3f16bee4812ab682a6ed73e606d",
+                {
+                    center: [49.83826, 24.02324],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_08666e964bd5475596513ad7176ba30e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e267f3f16bee4812ab682a6ed73e606d);
+        
+    
+            var feature_group_bbeba1329f6a413a9f8d36c6437d9939 = L.featureGroup(
+                {}
+            ).addTo(map_e267f3f16bee4812ab682a6ed73e606d);
+        
+    
+            var marker_cf5e9735def84d63a55f13dd88351717 = L.marker(
+                [41.9960924, 21.4316495],
+                {}
+            ).addTo(feature_group_bbeba1329f6a413a9f8d36c6437d9939);
+        
+    
+        var popup_3117944da6bb43b2a13d67d798db6411 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0107fb9c15a54c6fb32194c280d3225e = $(`<div id="html_0107fb9c15a54c6fb32194c280d3225e" style="width: 100.0%; height: 100.0%;">Macedonia Jazz (2000)</div>`)[0];
+            popup_3117944da6bb43b2a13d67d798db6411.setContent(html_0107fb9c15a54c6fb32194c280d3225e);
+        
+
+        marker_cf5e9735def84d63a55f13dd88351717.bindPopup(popup_3117944da6bb43b2a13d67d798db6411)
+        ;
+
+        
+    
+    
+            var marker_99bade63f8a94ac3b2cd1b7b65dc7e2f = L.marker(
+                [47.4983815, 19.0404707],
+                {}
+            ).addTo(feature_group_bbeba1329f6a413a9f8d36c6437d9939);
+        
+    
+        var popup_17fa094d55b74a6480131d644b7ee18d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c5387c63dc4462cb4c73524003a71de = $(`<div id="html_7c5387c63dc4462cb4c73524003a71de" style="width: 100.0%; height: 100.0%;">Fashion (2000) (V)</div>`)[0];
+            popup_17fa094d55b74a6480131d644b7ee18d.setContent(html_7c5387c63dc4462cb4c73524003a71de);
+        
+
+        marker_99bade63f8a94ac3b2cd1b7b65dc7e2f.bindPopup(popup_17fa094d55b74a6480131d644b7ee18d)
+        ;
+
+        
+    
+    
+            var marker_7ec0bc7839ce4484b58ceca81ed164ed = L.marker(
+                [52.215933, 19.134422],
+                {}
+            ).addTo(feature_group_bbeba1329f6a413a9f8d36c6437d9939);
+        
+    
+        var popup_bbc24ba3f7e84edca8d0fc4fd75ddfdf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27c673ebc0c24b3a8be45049d3973b48 = $(`<div id="html_27c673ebc0c24b3a8be45049d3973b48" style="width: 100.0%; height: 100.0%;">4 w 1 (2000)</div>`)[0];
+            popup_bbc24ba3f7e84edca8d0fc4fd75ddfdf.setContent(html_27c673ebc0c24b3a8be45049d3973b48);
+        
+
+        marker_7ec0bc7839ce4484b58ceca81ed164ed.bindPopup(popup_bbc24ba3f7e84edca8d0fc4fd75ddfdf)
+        ;
+
+        
+    
+    
+            var marker_ba93d39b3a624dc2a0e6f80a59a64141 = L.marker(
+                [51.5039288, 16.0713371],
+                {}
+            ).addTo(feature_group_bbeba1329f6a413a9f8d36c6437d9939);
+        
+    
+        var popup_9f004a60bcda427598ac10758e7c0940 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4074c9a02afe461db6c0aff3db424da5 = $(`<div id="html_4074c9a02afe461db6c0aff3db424da5" style="width: 100.0%; height: 100.0%;">Nie ma zmiluj (2000)</div>`)[0];
+            popup_9f004a60bcda427598ac10758e7c0940.setContent(html_4074c9a02afe461db6c0aff3db424da5);
+        
+
+        marker_ba93d39b3a624dc2a0e6f80a59a64141.bindPopup(popup_9f004a60bcda427598ac10758e7c0940)
+        ;
+
+        
+    
+    
+            var marker_56ed6c927699415eba637b9281309902 = L.marker(
+                [48.1516988, 17.1093063],
+                {}
+            ).addTo(feature_group_bbeba1329f6a413a9f8d36c6437d9939);
+        
+    
+        var popup_917cbff6915a4327824735c97856d494 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16d4a0a1afa1474e96e2c7e6eea1545a = $(`<div id="html_16d4a0a1afa1474e96e2c7e6eea1545a" style="width: 100.0%; height: 100.0%;">"Trautmann" (2000) </div>`)[0];
+            popup_917cbff6915a4327824735c97856d494.setContent(html_16d4a0a1afa1474e96e2c7e6eea1545a);
+        
+
+        marker_56ed6c927699415eba637b9281309902.bindPopup(popup_917cbff6915a4327824735c97856d494)
+        ;
+
+        
+    
+    
+            var marker_342e52c35f254b9498f86dbc91401df5 = L.marker(
+                [44.4361414, 26.1027202],
+                {}
+            ).addTo(feature_group_bbeba1329f6a413a9f8d36c6437d9939);
+        
+    
+        var popup_a675d7284e9c45e29460cb7cb3816306 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df6e4fde211a4739a79d41269028ddf7 = $(`<div id="html_df6e4fde211a4739a79d41269028ddf7" style="width: 100.0%; height: 100.0%;">Witchouse II: Blood Coven (2000) (V)</div>`)[0];
+            popup_a675d7284e9c45e29460cb7cb3816306.setContent(html_df6e4fde211a4739a79d41269028ddf7);
+        
+
+        marker_342e52c35f254b9498f86dbc91401df5.bindPopup(popup_a675d7284e9c45e29460cb7cb3816306)
+        ;
+
+        
+    
+    
+            var marker_2559dfcd47944f67b4e5e148f59ffe88 = L.marker(
+                [45.9852129, 24.6859225],
+                {}
+            ).addTo(feature_group_bbeba1329f6a413a9f8d36c6437d9939);
+        
+    
+        var popup_0a1650bec88140cab55c431542d6d6c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5dd2ede658fe411a8b4c582d8fcb4c89 = $(`<div id="html_5dd2ede658fe411a8b4c582d8fcb4c89" style="width: 100.0%; height: 100.0%;">"Scariest Places on Earth" (2000)</div>`)[0];
+            popup_0a1650bec88140cab55c431542d6d6c2.setContent(html_5dd2ede658fe411a8b4c582d8fcb4c89);
+        
+
+        marker_2559dfcd47944f67b4e5e148f59ffe88.bindPopup(popup_0a1650bec88140cab55c431542d6d6c2)
+        ;
+
+        
+    
+    
+            var marker_f8d72f14f3f6400a95d1c4910f282852 = L.marker(
+                [45.5643442, 17.0118954],
+                {}
+            ).addTo(feature_group_bbeba1329f6a413a9f8d36c6437d9939);
+        
+    
+        var popup_b8bb45ce4e6945ab91688688f4eace03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_945bdcfd5b7d4c0daa297f590f93c088 = $(`<div id="html_945bdcfd5b7d4c0daa297f590f93c088" style="width: 100.0%; height: 100.0%;">Demonski plodovi (2000)</div>`)[0];
+            popup_b8bb45ce4e6945ab91688688f4eace03.setContent(html_945bdcfd5b7d4c0daa297f590f93c088);
+        
+
+        marker_f8d72f14f3f6400a95d1c4910f282852.bindPopup(popup_b8bb45ce4e6945ab91688688f4eace03)
+        ;
+
+        
+    
+    
+            var marker_560e9fddeac042909381ba882633e162 = L.marker(
+                [47.1817585, 19.5060937],
+                {}
+            ).addTo(feature_group_bbeba1329f6a413a9f8d36c6437d9939);
+        
+    
+        var popup_a340ba73749b4d14a9d2ac07367a3ac0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a2bacdde1da440eaf04491408319f80 = $(`<div id="html_5a2bacdde1da440eaf04491408319f80" style="width: 100.0%; height: 100.0%;">Every Last Inch (2000) (V)</div>`)[0];
+            popup_a340ba73749b4d14a9d2ac07367a3ac0.setContent(html_5a2bacdde1da440eaf04491408319f80);
+        
+
+        marker_560e9fddeac042909381ba882633e162.bindPopup(popup_a340ba73749b4d14a9d2ac07367a3ac0)
+        ;
+
+        
+    
+    
+            var marker_b94cf36ab893491e8ebf3f7002f76bb9 = L.marker(
+                [49.8167003, 15.4749544],
+                {}
+            ).addTo(feature_group_bbeba1329f6a413a9f8d36c6437d9939);
+        
+    
+        var popup_249249e85f6344d1b8cbafb80ddbc3cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_110665e2f25a4612a24cdd98b3edb7e0 = $(`<div id="html_110665e2f25a4612a24cdd98b3edb7e0" style="width: 100.0%; height: 100.0%;">Double Czech (2000) (V)</div>`)[0];
+            popup_249249e85f6344d1b8cbafb80ddbc3cc.setContent(html_110665e2f25a4612a24cdd98b3edb7e0);
+        
+
+        marker_b94cf36ab893491e8ebf3f7002f76bb9.bindPopup(popup_249249e85f6344d1b8cbafb80ddbc3cc)
+        ;
+
+        
+    
+    
+            var marker_ce0c9a21dc2a417cba89eb13cd047e46 = L.marker(
+                [52.2319581, 21.0067249],
+                {}
+            ).addTo(feature_group_bbeba1329f6a413a9f8d36c6437d9939);
+        
+    
+        var popup_2fa9a317c7134e44b4ea748574e11e55 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c7d813a11234f97a754c7a2a7a42d4f = $(`<div id="html_6c7d813a11234f97a754c7a2a7a42d4f" style="width: 100.0%; height: 100.0%;">Egoisci (2000)</div>`)[0];
+            popup_2fa9a317c7134e44b4ea748574e11e55.setContent(html_6c7d813a11234f97a754c7a2a7a42d4f);
+        
+
+        marker_ce0c9a21dc2a417cba89eb13cd047e46.bindPopup(popup_2fa9a317c7134e44b4ea748574e11e55)
+        ;
+
+        
+    
+    
+            var marker_a6a50348f79b4c26aedc87ed1b367390 = L.marker(
+                [49.83826, 24.02324],
+                {}
+            ).addTo(feature_group_bbeba1329f6a413a9f8d36c6437d9939);
+        
+    
+            var icon_a6971b35ff0d4d9f8b6738c79a96026b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a6a50348f79b4c26aedc87ed1b367390.setIcon(icon_a6971b35ff0d4d9f8b6738c79a96026b);
+        
+    
+        var popup_2199b08be11a4de4b0b9f46ec6d539c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eeec6c52e9444ea99736c9505644d0d0 = $(`<div id="html_eeec6c52e9444ea99736c9505644d0d0" style="width: 100.0%; height: 100.0%;">You are here!</div>`)[0];
+            popup_2199b08be11a4de4b0b9f46ec6d539c3.setContent(html_eeec6c52e9444ea99736c9505644d0d0);
+        
+
+        marker_a6a50348f79b4c26aedc87ed1b367390.bindPopup(popup_2199b08be11a4de4b0b9f46ec6d539c3)
+        ;
+
+        
+    
+    
+            var feature_group_bcdc254b67de42fb99d9aae13fdfab43 = L.featureGroup(
+                {}
+            ).addTo(map_e267f3f16bee4812ab682a6ed73e606d);
+        
+    
+            var poly_line_7ed2c48beb9942238f2dfe49863e2dda = L.polyline(
+                [[41.9960924, 21.4316495], [49.83826, 24.02324]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_bcdc254b67de42fb99d9aae13fdfab43);
+        
+    
+            var poly_line_6d94ed504039499c95ab0d97801db20d = L.polyline(
+                [[47.4983815, 19.0404707], [49.83826, 24.02324]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_bcdc254b67de42fb99d9aae13fdfab43);
+        
+    
+            var poly_line_e638e3e164694be387d120ccfbaec106 = L.polyline(
+                [[52.215933, 19.134422], [49.83826, 24.02324]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_bcdc254b67de42fb99d9aae13fdfab43);
+        
+    
+            var poly_line_bd364ab777f84d468b425a5eec80f4ef = L.polyline(
+                [[51.5039288, 16.0713371], [49.83826, 24.02324]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_bcdc254b67de42fb99d9aae13fdfab43);
+        
+    
+            var poly_line_c23795b3de524d879e43434e5c0fb893 = L.polyline(
+                [[48.1516988, 17.1093063], [49.83826, 24.02324]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_bcdc254b67de42fb99d9aae13fdfab43);
+        
+    
+            var poly_line_7e0b2ba1bc63458586808ba86ff244b9 = L.polyline(
+                [[44.4361414, 26.1027202], [49.83826, 24.02324]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_bcdc254b67de42fb99d9aae13fdfab43);
+        
+    
+            var poly_line_7c0502624bcc42e4b6ceb8a4f0445f60 = L.polyline(
+                [[45.9852129, 24.6859225], [49.83826, 24.02324]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_bcdc254b67de42fb99d9aae13fdfab43);
+        
+    
+            var poly_line_b45873b520c34b048f405b1a191bae00 = L.polyline(
+                [[45.5643442, 17.0118954], [49.83826, 24.02324]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_bcdc254b67de42fb99d9aae13fdfab43);
+        
+    
+            var poly_line_7c0ffce65fef475c8d24438871915235 = L.polyline(
+                [[47.1817585, 19.5060937], [49.83826, 24.02324]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_bcdc254b67de42fb99d9aae13fdfab43);
+        
+    
+            var poly_line_861a700803d04ae5863b29f58d99d07e = L.polyline(
+                [[49.8167003, 15.4749544], [49.83826, 24.02324]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_bcdc254b67de42fb99d9aae13fdfab43);
+        
+    
+            var poly_line_99397b9bf3b84bd3a14012eb4f8fa329 = L.polyline(
+                [[52.2319581, 21.0067249], [49.83826, 24.02324]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_bcdc254b67de42fb99d9aae13fdfab43);
+        
+    
+            var layer_control_833c858f73a04c3fa4268a99b7d6828d = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_08666e964bd5475596513ad7176ba30e,
+                },
+                overlays :  {
+                    "Markers with fims" : feature_group_bbeba1329f6a413a9f8d36c6437d9939,
+                    "Lines" : feature_group_bcdc254b67de42fb99d9aae13fdfab43,
+                },
+            };
+            L.control.layers(
+                layer_control_833c858f73a04c3fa4268a99b7d6828d.base_layers,
+                layer_control_833c858f73a04c3fa4268a99b7d6828d.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_e267f3f16bee4812ab682a6ed73e606d);
+        
+</script>
